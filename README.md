@@ -66,12 +66,12 @@ Gourmet Gatherings is a web-based catering reservation and ordering system desig
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/gourmet-gatherings.git
+   git clone https://github.com/devpriyochakravarty/blog_website.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd gourmet-gatherings
+   cd blog_website
    ```
 
 3. Open index.html in a modern web browser.
