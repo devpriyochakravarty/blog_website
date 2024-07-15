@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechInsights Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="techinsights" class="logo">TechInsights</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search blog posts...">
+                <button id="search-button"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <section id="hero" class="section">
+            <div class="hero-image">
+                <div class="container">
+                    <h2>Welcome to TechInsights</h2>
+                    <p>Your source for the latest in technology and innovation</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured" class="section">
+            <div class="container">
+                <h2>Featured Posts</h2>
+                <div class="post-grid">
+                    <article class="post" data-tags="ai,machinelearning">
+                        <img src="OIP (2).jpeg" alt="AI and Machine Learning" class="lazy" data-src="OIP (2).jpeg">
+                        <h3>The Future of AI and Machine Learning</h3>
+                        <div class="meta">By DEVPRIYO | July 15, 2024</div>
+                        <p>Exploring the latest advancements in artificial intelligence and machine learning, and their potential impact on various industries...</p>
+                        <a href="#" class="read-more">Read More</a>
+                        <div class="tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                        <div class="social-share">
+                            <button class="share-btn" data-platform="facebook"><i class="fab fa-facebook-f"></i></button>
+                            <button class="share-btn" data-platform="twitter"><i class="fab fa-twitter"></i></button>
+                            <button class="share-btn" data-platform="linkedin"><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                        <div class="comment-section">
+                            <h4>Comments</h4>
+                            <ul class="comments-list"></ul>
+                            <form class="comment-form">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="comment" placeholder="Your Comment" required></textarea>
+                                <button type="submit">Submit Comment</button>
+                            </form>
+                        </div>
+                    </article>
+                    <article class="post" data-tags="blockchain,cryptocurrency">
+                        <img src="OIP (1).jpeg" alt="Blockchain Revolution" class="lazy" data-src="OIP (1).jpeg">
+                        <h3>Blockchain: Revolutionizing Industries Beyond Crypto</h3>
+                        <div class="meta">By mousumi | July 14, 2024</div>
+                        <p>Discover how blockchain technology is transforming various sectors, from supply chain management to healthcare...</p>
+                        <a href="#" class="read-more">Read More</a>
+                        <div class="tags">
+                            <span class="tag">Blockchain</span>
+                            <span class="tag">Cryptocurrency</span>
+                        </div>
+                        <div class="social-share">
+                            <button class="share-btn" data-platform="facebook"><i class="fab fa-facebook-f"></i></button>
+                            <button class="share-btn" data-platform="twitter"><i class="fab fa-twitter"></i></button>
+                            <button class="share-btn" data-platform="linkedin"><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                        <div class="comment-section">
+                            <h4>Comments</h4>
+                            <ul class="comments-list"></ul>
+                            <form class="comment-form">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="comment" placeholder="Your Comment" required></textarea>
+                                <button type="submit">Submit Comment</button>
+                            </form>
+                        </div>
+                    </article>
+                    <article class="post" data-tags="cybersecurity,privacy">
+                        <img src="download.jpeg" alt="Cybersecurity Challenges" class="lazy" data-src="download.jpeg">
+                        <h3>Navigating the Evolving Landscape of Cybersecurity</h3>
+                        <div class="meta">By Devkumar | July 13, 2024</div>
+                        <p>An in-depth look at the latest cybersecurity challenges and strategies to protect digital assets in an increasingly connected world...</p>
+                        <a href="#" class="read-more">Read More</a>
+                        <div class="tags">
+                            <span class="tag">Cybersecurity</span>
+                            <span class="tag">Privacy</span>
+                        </div>
+                        <div class="social-share">
+                            <button class="share-btn" data-platform="facebook"><i class="fab fa-facebook-f"></i></button>
+                            <button class="share-btn" data-platform="twitter"><i class="fab fa-twitter"></i></button>
+                            <button class="share-btn" data-platform="linkedin"><i class="fab fa-linkedin-in"></i></button>
+                        </div>
+                        <div class="comment-section">
+                            <h4>Comments</h4>
+                            <ul class="comments-list"></ul>
+                            <form class="comment-form">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="comment" placeholder="Your Comment" required></textarea>
+                                <button type="submit">Submit Comment</button>
+                            </form>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="section">
+            <div class="container">
+                <h2>Categories</h2>
+                <ul class="category-list">
+                    <li><a href="#" data-category="ai">Artificial Intelligence</a></li>
+                    <li><a href="#" data-category="blockchain">Blockchain</a></li>
+                    <li><a href="#" data-category="cloud">Cloud Computing</a></li>
+                    <li><a href="#" data-category="cybersecurity">Cybersecurity</a></li>
+                    <li><a href="#" data-category="iot">Internet of Things</a></li>
+                    <li><a href="#" data-category="machinelearning">Machine Learning</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="newsletter" class="section">
+            <div class="container">
+                <h2>Subscribe to Our Newsletter</h2>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About TechInsights</h3>
+                    <p>TechInsights is your go-to source for the latest technology news, trends, and insights.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#featured">Featured</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechInsights. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
